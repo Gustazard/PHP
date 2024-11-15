@@ -1,0 +1,23 @@
+/* Estilo do container do carrossel */
+.carousel-container{
+    overflow: hidden; /* Esconde partes das imagens que saem do container */
+    width: 100%; /* O container ocupa toda a largura da página */
+    max-width: 800px; /* Largura máxima para limitar em telas maiores */
+    margin: auto; /* Centraliza o container */
+}
+
+/* Estilo da faixa de imagens */
+.carousel-track{
+    display: flex; /* Coloca as imagens lado a lado em linha */
+    transition: transform 0.5s ease; /* Animação suave para a transição */
+}
+
+/* Cada item do carrosesel */
+.carousel-item{
+    flex: 0 0 100%; /* Cada item ocupa 100% da largura do container */
+}
+
+img{
+    width: 100%; /* As imagens ocupam toda a largura do item */
+    display: block; /* Garante que não haja espaçamento abaixo das imagens */
+}
